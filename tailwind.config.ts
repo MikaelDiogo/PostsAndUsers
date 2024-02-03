@@ -9,8 +9,9 @@ const config: Config = {
   theme: {
     extend: {
       spacing:{
-        '128':'31rem',
-        '256':'50rem',
+        '128':'28rem',
+        '256':'46rem',
+        '97': '22rem'
       },
   
     },
