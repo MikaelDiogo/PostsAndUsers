@@ -1,7 +1,8 @@
 import Posts from "./components/posts";
 import { Home as HomeIcon, UserRoundSearch, LogOut, Plus } from "lucide-react";
 import Users from "./components/users";
-
+import Link from "next/link";
+import User from "./pages/user";
 
 
 export default function Home() {
@@ -14,10 +15,12 @@ export default function Home() {
                 <a className=" flex gap-2 hover:text-zinc-400" href="">
                   <HomeIcon></HomeIcon>
                    Home</a>
-                <a className=" flex gap-2
-                 hover:text-zinc-400" href="">
+                <Link href={"product"}>User</Link>
+                 <a className=" flex gap-2
+                 hover:text-zinc-400" href="/user">
                   <UserRoundSearch></UserRoundSearch>
                   Users</a>
+                 
                   <a className=" flex gap-2
                  hover:text-zinc-400 " href="">
                   <Plus></Plus>
