@@ -11,7 +11,8 @@ const config: Config = {
       spacing:{
         '128':'28rem',
         '256':'46rem',
-        '97': '22rem'
+        '97': '22rem',
+        '129':'31rem'
       },
   
     },
